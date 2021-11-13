@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Yuji+Syuku&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 4px;
+    background-color: #161616;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100%;
+    background: pink;
+}
+
+li {
+    cursor: default;
+}
+.container_contenido {
+    display: flex;
+    overflow: hidden;
+}
+
+.contenido_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_datos {
+    font-family: 'Yuji Syuku', serif;
+}
+
+.texto {
+    padding: 20px;
+    text-align: justify;
+}
+iframe {
+    padding: 10px 20px;
+    /* padding-left: 20px; */
+    border: 0;
+    width: 720px;
+    height: 762px;
+}
+
+li {
+    color: whitesmoke;
+}
+
+.lista_info {
+    margin-top: 20px;
+    padding:10px 10px 10px 0px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+
+.mensaje {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-weight: lighter;
+    font-size: 1.5em !important;
+    line-height: 1.5em;
+    letter-spacing: 8px;
+    cursor: default;
+    background: linear-gradient(red, #161616);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.9s ease-in-out
+}
+
+.mensaje:hover {
+  transform: scale(107%);
+}
+
+.acertijo {
+    font-family: 'Yuji Syuku', serif;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 3px;
+}
