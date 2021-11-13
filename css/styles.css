@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Yuji+Syuku&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Yuji Boku', serif !important;
 }
 body {
     background-color: black;
@@ -46,8 +46,8 @@ iframe {
     padding: 10px 20px;
     /* padding-left: 20px; */
     border: 0;
-    width: 720px;
-    height: 762px;
+    width: 600px;
+    height: 642px;
 }
 
 li {
@@ -61,26 +61,10 @@ li {
     line-height: 22px;
 }
 
-.mensaje {
-    text-align: center;
-    font-family: 'Monoton', cursive;
-    font-weight: lighter;
-    font-size: 1.5em !important;
-    line-height: 1.5em;
-    letter-spacing: 8px;
-    cursor: default;
-    background: linear-gradient(red, #161616);
-    -webkit-background-clip: text;
-    color: transparent;
-    transition: all 0.9s ease-in-out
-}
 
-.mensaje:hover {
-  transform: scale(107%);
-}
+
 
 .acertijo {
-    font-family: 'Yuji Syuku', serif;
     font-size: 12px;
     text-align: center;
     letter-spacing: 3px;
